@@ -10,7 +10,7 @@ public class MagentoTest {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("https://www.magento.com");
+		driver.get("https://magento.com");
 		Welcome w=new Welcome(driver);
 		w.clickOnMyAccount();
 		Login l=new Login(driver);
